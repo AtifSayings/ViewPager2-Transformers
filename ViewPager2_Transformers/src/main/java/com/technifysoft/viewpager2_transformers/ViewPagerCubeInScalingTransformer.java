@@ -1,5 +1,12 @@
 package com.technifysoft.viewpager2_transformers;
 
+/*
+@Author: Atif Pervaiz
+Website: https://technifysoft.com/
+Playstore: https://play.google.com/store/apps/dev?id=9049012648188611488
+*/
+
+
 import android.view.View;
 
 import androidx.annotation.NonNull;
