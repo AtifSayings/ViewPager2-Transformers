@@ -31,7 +31,7 @@ class ViewPager2KotlinActivity : AppCompatActivity() {
 
 
     private fun setupViewPager2(selectedOrientation: Int) {
-
+        //init sample list of images, i've just used colors instead of images, you may use images
         val viewPager2JavaArrayList = ArrayList<ModelViewPager2Kotlin>()
         viewPager2JavaArrayList.add(ModelViewPager2Kotlin(R.color.purple_200))
         viewPager2JavaArrayList.add(ModelViewPager2Kotlin(R.color.purple_500))

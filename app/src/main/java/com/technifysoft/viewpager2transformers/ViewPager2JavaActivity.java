@@ -39,6 +39,7 @@ public class ViewPager2JavaActivity extends AppCompatActivity {
     }
 
     private void setupViewPager2(int selectedOrientation) {
+        //init sample list of images, i've just used colors instead of images, you may use images
         ArrayList<ModelViewPager2Java> viewPager2JavaArrayList = new ArrayList<>();
         viewPager2JavaArrayList.add(new ModelViewPager2Java(R.color.purple_200));
         viewPager2JavaArrayList.add(new ModelViewPager2Java(R.color.purple_500));
