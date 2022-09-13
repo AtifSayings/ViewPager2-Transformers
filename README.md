@@ -58,7 +58,40 @@ dependencies {
 ## Usage
 ### Programatically
 ```java
+//setup adapter
+AdapterViewPager2Java adapterViewPager2Java = new AdapterViewPager2Java(this, viewPager2JavaArrayList);
+//set adapter to view pager
+binding.viewPager2.setAdapter(adapterViewPager2Java);
+//after setting adapter set one of the following page transforemers
 01) binding.viewPager2.setPageTransformer(new ViewPagerAccordionTransformer());
 02) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+03) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+04) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+05) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+06) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+07) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+08) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+09) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+10) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+11) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+12) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+13) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+14) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+15) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+16) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+17) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+18) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+19) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+20) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+21) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+22) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+23) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+24) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+25) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+26) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+27) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+28) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+29) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
+30) binding.viewPager2.setPageTransformer(new ViewPagerAntiClockSpinTransformer());
 ```
 
