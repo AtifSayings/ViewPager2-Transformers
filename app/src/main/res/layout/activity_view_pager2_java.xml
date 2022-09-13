@@ -9,35 +9,37 @@
     android:padding="10dp"
     tools:context=".ViewPager2JavaActivity">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/animationTv"
+        style="@style/TextAppearance.MaterialComponents.Body1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:drawableEnd="@drawable/ic_down_black"
+        android:padding="10dp"
+        android:text="Choose Animation" />
 
-        <RadioGroup
-            android:id="@+id/orientationRadioGroup"
+    <RadioGroup
+        android:id="@+id/orientationRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/verticalRadioBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_weight="1"
+            android:text="VERTICAL" />
 
-            <com.google.android.material.radiobutton.MaterialRadioButton
-                android:id="@+id/verticalRadioBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="VERTICAL" />
+        <com.google.android.material.radiobutton.MaterialRadioButton
+            android:id="@+id/horizontalRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="HORIZONTAL" />
 
-            <com.google.android.material.radiobutton.MaterialRadioButton
-                android:id="@+id/horizontalRadioBtn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:checked="true"
-                android:layout_weight="1"
-                android:text="HORIZONTAL" />
-
-        </RadioGroup>
-
-    </LinearLayout>
+    </RadioGroup>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager2"

@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true">
 
-    <com.google.android.material.imageview.ShapeableImageView
-        android:id="@+id/imageIv"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:shapeAppearanceOverlay="@style/ImageStyle_Corners_Rounded"
-        app:strokeColor="#cccccc"
-        app:strokeWidth="2dp" />
+        android:orientation="vertical"
+        android:padding="20dp">
 
-</RelativeLayout>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageIv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banner_graphics"
+            app:shapeAppearanceOverlay="@style/ImageStyle_Corners_Rounded"
+            app:strokeColor="#F1F1F1"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Headline4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technify Soft"
+            android:textAlignment="center" />
+
+        <TextView
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact for Graphics Design, Android, iOS Application, Web Application development."
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/contactBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Contact"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
