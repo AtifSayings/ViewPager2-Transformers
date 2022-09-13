@@ -52,7 +52,7 @@ dependencyResolutionManagement {
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
-      implementation 'com.github.AtifSayings:ViewPager2-Transformers:1.0.1'
+     implementation 'com.github.AtifSayings:ViewPager2-Transformers:1.0.1'
 }
 ```
 ## Usage
