@@ -19,11 +19,11 @@ Add this into your root build.gradle file:
 
 ```java
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+	...
+	maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 OR. In Newer Versions of Android Studio  settings.gradle file:
@@ -52,7 +52,7 @@ dependencyResolutionManagement {
 Add the dependency to your module build.gradle:
 ```java
 dependencies {
-	implementation 'com.github.AtifSayings:ViewPager2-Transformers:1.0.1'
+      implementation 'com.github.AtifSayings:ViewPager2-Transformers:1.0.1'
 }
 ```
 ## Usage
