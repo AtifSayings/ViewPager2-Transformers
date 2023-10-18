@@ -3,7 +3,7 @@
 
 Used to add different types of animations in ViewPager2.
 * min SDK 19 (Android KitKat 4.4)
-* written in Kotlin can be used in both Java and Kotlin
+* written in Java can be used in both Java and Kotlin
 
 A lightweight and fully customizable library to animate your ViewPager2
 
@@ -19,11 +19,11 @@ Add this into your root build.gradle file:
 
 ```java
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
+    repositories {
+         ...
+	maven { url 'https://jitpack.io' }
+    }
+}
 ```
 
 OR. In Newer Versions of Android Studio  settings.gradle file:
