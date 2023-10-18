@@ -8,10 +8,10 @@ Used to add different types of animations in ViewPager2.
 A lightweight and fully customizable library to annimate your ViewPager2
 
 ## Screenshots
-<div align="center">
+<!--<div align="center">
     <img src="https://github.com/mohammadatif/CircularImageView/blob/master/screenshots/screen1.png" width="300px"</img> 
     <img src="https://github.com/mohammadatif/CircularImageView/blob/master/screenshots/screen2.png" width="300px"</img> 
-</div>
+</div>-->
 
 ## Installation
 
