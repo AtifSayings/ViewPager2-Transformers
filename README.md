@@ -2,10 +2,10 @@
 [![](https://jitpack.io/v/AtifSayings/ViewPager2-Transformers.svg)](https://jitpack.io/#AtifSayings/ViewPager2-Transformers)
 
 Used to add different types of animations in ViewPager2.
-* min SDK 16 (Android Jellybean 4.1)
-* written in Java cann be used in both java and Kotlin
+* min SDK 19 (Android KitKat 4.4)
+* written in Kotlin can be used in both Java and Kotlin
 
-A lightweight and fully customizable library to annimate your ViewPager2
+A lightweight and fully customizable library to animate your ViewPager2
 
 ## Screenshots
 <!--<div align="center">
@@ -19,11 +19,11 @@ Add this into your root build.gradle file:
 
 ```java
 allprojects {
-    repositories {
-	...
-	maven { url 'https://jitpack.io' }
-    }
-}
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
 OR. In Newer Versions of Android Studio  settings.gradle file:
@@ -44,6 +44,29 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven { url 'https://jitpack.io' }
+        jcenter()
+    }
+}
+```
+
+OR. In Newer Versions of Android Studio with Kotlin DSL settings.gradle.kts file:
+
+```java
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
+        jcenter()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { setUrl("https://jitpack.io") }
         jcenter()
     }
 }
